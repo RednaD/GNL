@@ -14,7 +14,7 @@
 
 int		get_next_line(int const fd, char **line)
 {
-	char		buffer[BUFF_SIZE];
+	char		buffer[BUFF_SIZE + 1];
 	char		*tmp;
 	int			file;
 	static char	*memory;
